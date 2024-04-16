@@ -1,0 +1,22 @@
+.Song {
+  padding: 15px 20px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 10px -6px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Song_title {
+  font-weight: bold;
+}
+
+.Song_singer {
+  color: #aaa;
+}
+
+.Song_no {
+  font-size: 22px;
+}
