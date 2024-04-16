@@ -1,0 +1,24 @@
+.SearchBar {
+  height: 35px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.SearchBar_input {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border: 1px solid lightgray;
+  border-right: none;
+}
+
+.SearchBar_button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border: 1px solid lightgray;
+}

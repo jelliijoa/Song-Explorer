@@ -1,9 +1,8 @@
 import Song from '../Song';
-import './index.css';
 
 function SongList({ data }) {
   return (
-    <div className=''>
+    <div>
       {data.map((song) => {
         return <Song key={song.no} {...song} />;
       })}
